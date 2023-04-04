@@ -263,7 +263,7 @@ def generationEtatFinal(n, trou):
 def generationPlateau(n,trou):
    matrice = []
 
-   #crée une liste de 0 à (n*n)-1 + le trou et on le mélan
+   #crée une liste de 0 à (n*n)-1 + le trou et on le mélange
    liste_val_possible = list(range(n*n-1))
    liste_val_possible.append(trou)
    random.shuffle(liste_val_possible)
